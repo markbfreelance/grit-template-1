@@ -2,7 +2,7 @@
 
 export default function Hero_Home() {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden flex items-center">
       {/* Video Background */}
       <video
         autoPlay
@@ -17,7 +17,7 @@ export default function Hero_Home() {
       <div className="absolute inset-0 bg-black/70" />
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col justify-end pb-24 px-10 max-w-3xl">
+      <div className="relative z-10 w-full mx-auto max-w-350 px-10">
         <p
           className="text-xs tracking-[0.3em] mb-4 font-display font-medium"
           style={{ color: "#DA1D3A" }}

@@ -20,7 +20,7 @@ export default function Header() {
       style={{ backgroundColor: "#0e132b", borderBottom: "2px solid #DA1D3A" }}
       className="w-full sticky top-0 z-50"
     >
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="max-w-400 mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
