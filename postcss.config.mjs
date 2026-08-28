@@ -5,3 +5,5 @@ const config = {
 };
 
 export default config;
+
+// Force clean Vercel build 20260829004633
